@@ -5,27 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin Fation</title>
       <script src="https://cdn.tailwindcss.com"></script>
-
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                price: '#FABE4C',
+                
+              }
+            }
+          }
+        }
+      </script>
+      <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <header class=" bg-amber-100">
 <!-- nav -->
 <!-- banner -->
-<div class="container mx-auto py-12 flex justify-center items-center mt-12">
-    <div class="space-y-6">
+<div class="container mx-auto py-12 md:flex w-auto justify-center items-center mt-12">
+    <div class="space-y-6 px-4">
         <h1 class="text-7xl font-semibold uppercase"><span class="text-amber-400">Be The penguin</span>
             <br> Of Winter</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, dolores!</p>
-            <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+            <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                <p><i class="fa-solid fa-cart-shopping"></i></p>
                 Buy Now</button>
     </div>
     <div class="">
-        <img src="images/model.png" alt="">
+        <img class="w-3/4 md:w-full" src="images/model.png" alt="">
     </div>
 </div>
    </header>
-   <main>
-
+   <main class="container mx-auto">
+    <!--------------------------------------------------------------------------------------------------------
+         woman jecket
+        ------------------------------------------------------------------------------------------------------------ -->
+<section class="mt-12">
+    <h2 class="text-5xl font-semibold uppercase">Woman Jacket</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-1.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+         <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-2.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+         <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-3.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+    </div>
+</section>
+<!-- man jecket -->
+<section class="mt-12">
+    <h2 class="text-5xl font-semibold uppercase">Man Jacket</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-4.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+         <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-5.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+         <div class="rounded-2xl drop-shadow-xl p-4">
+            <!-- jecket card -->
+           <div class="bg-slate-100 p-4 rounded-2xl">
+            <img src="images/jacket-6.png" alt="">
+           </div>
+            <div class="">
+                <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, maiores saepe! Cum facilis sequi sunt officiis omnis nihil mollitia totam!</p>
+                <div class="flex justify-between">
+                    <h2 class="text-4xl font-semibold text-price">$234</h2>
+                    <button class="text-white py-4 px-8 rounded-lg uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] justify-center items-center i">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        Buy Now</button>
+                </div>
+            </div>
+         </div>
+    </div>
+</section>
+<!-- last section-->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div class="order-2 md:order-1 bg-slate-200 h-32 flex p-6 rounded-2xl shadow-2xl">
+    <img class="h-20 w-20" src="icons/house.png" alt="">
+    <div class="">
+        <h3 class="text-2xl">Find the Perfect Fit</h3>
+        <p>Everybody is different, which is why we offer styles for every body.</p>
+    </div>
+</div>
+<div class="order-1 md:order-2 bg-slate-200 row-span-3">
+    <img src="images/shopping.png" alt="">
+</div>
+<div class="order-3 bg-slate-200 h-32 flex p-6 rounded-2xl shadow-2xl">
+    <img class="h-20 w-20" src="icons/box.png" alt="">
+    <div class="">
+        <h3 class="text-2xl">Find the Perfect Fit</h3>
+        <p>Everybody is different, which is why we offer styles for every body.</p>
+    </div>
+</div>
+<div class="order-4 bg-slate-200 h-32 flex p-6 rounded-2xl shadow-2xl">
+    <img class="h-20 w-20" src="icons/question.png" alt="">
+    <div class="">
+        <h3 class="text-2xl">Find the Perfect Fit</h3>
+        <p>Everybody is different, which is why we offer styles for every body.</p>
+    </div>
+</div>
+</section>
    </main>
    <footer>
 
